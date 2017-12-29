@@ -1,14 +1,69 @@
 {
-  "name": "angular4-social-login",
-  "version": "1.1.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/abacritt/angular4-social-login"
+  "_args": [
+    [
+      {
+        "raw": "angular4-social-login",
+        "scope": null,
+        "escapedName": "angular4-social-login",
+        "name": "angular4-social-login",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\_Proyectos\\binit\\47Channel\\47Channel.Mobile"
+    ]
+  ],
+  "_from": "angular4-social-login@latest",
+  "_id": "angular4-social-login@1.1.1",
+  "_inCache": true,
+  "_location": "/angular4-social-login",
+  "_nodeVersion": "9.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular4-social-login-1.1.1.tgz_1514276095483_0.6304385911207646"
   },
+  "_npmUser": {
+    "name": "jaibatrik",
+    "email": "jaibatrik@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular4-social-login",
+    "scope": null,
+    "escapedName": "angular4-social-login",
+    "name": "angular4-social-login",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular4-social-login/-/angular4-social-login-1.1.1.tgz",
+  "_shasum": "ed61571a449fad56f21488389212cc9882823d98",
+  "_shrinkwrap": null,
+  "_spec": "angular4-social-login",
+  "_where": "E:\\_Proyectos\\binit\\47Channel\\47Channel.Mobile",
   "author": {
     "name": "Jaibatrik Dutta",
     "email": "jaibatrik@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/abacritt/angular4-social-login/issues"
+  },
+  "dependencies": {},
+  "description": "Social login and authentication module for Angular 4 / 5. Supports authentication with **Google** and **Facebook**. Can be extended to other providers also.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-lfMaYyG8Z5D6NtwXC4abV77BtF4gVMiXqzf7fqN19Rs76WP7P2avj9/H8nTb28m93WiWROEqEp/XKpKhAqDTqg==",
+    "shasum": "ed61571a449fad56f21488389212cc9882823d98",
+    "tarball": "https://registry.npmjs.org/angular4-social-login/-/angular4-social-login-1.1.1.tgz"
+  },
+  "homepage": "https://github.com/abacritt/angular4-social-login#readme",
+  "jsnext:main": "angular4-social-login.js",
   "keywords": [
     "angular",
     "angular4",
@@ -19,16 +74,26 @@
     "facebook-authentication"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abacritt/angular4-social-login/issues"
-  },
   "main": "angular4-social-login.umd.js",
+  "maintainers": [
+    {
+      "name": "jaibatrik",
+      "email": "jaibatrik@gmail.com"
+    }
+  ],
   "module": "angular4-social-login.js",
-  "jsnext:main": "angular4-social-login.js",
-  "typings": "angular4-social-login.d.ts",
+  "name": "angular4-social-login",
+  "optionalDependencies": {},
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abacritt/angular4-social-login.git"
+  },
+  "typings": "angular4-social-login.d.ts",
+  "version": "1.1.1"
 }

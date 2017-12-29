@@ -50,7 +50,7 @@ export class GoogleLoginProvider extends BaseLoginProvider {
       promise.then(() => {
         let user: SocialUser = new SocialUser();
         let profile = this.auth2.currentUser.get().getBasicProfile();
-        let token = this.auth2.currentUser.get().getAuthResponse(true).access_token;
+        let token = this.auth2.currentUser.get().getAuthResponse(true).id_token;
         
 
         user.id = profile.getId();
